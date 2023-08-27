@@ -1,0 +1,10 @@
+assets:
+- method: binarc
+  name: 00battle.bin
+  source:
+  - method: listpatch
+    name: przt
+    source:
+    - name: przt.yml
+      type: przt
+    type: List
