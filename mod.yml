@@ -1,6 +1,12 @@
+title: Presents Abound!
+description: Enemies drop presents, open them for a suprise!
 assets:
-- method: binarc
-  name: 00battle.bin
+- name: scripts/Open-Present.lua
+  method: copy
+  source:
+  - name: Open-Present.lua
+- name: 00battle.bin
+  method: binarc
   source:
   - method: listpatch
     name: przt
@@ -8,3 +14,4 @@ assets:
     - name: przt.yml
       type: przt
     type: List
+  
